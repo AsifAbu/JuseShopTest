@@ -8,7 +8,6 @@ Dependency:
 Framework Layer:
 
 Singly Driver architecture
-
 |_Parent Driver > where driver is created. if not created any driver then create a new one
    |_Parent Scenario > inherit the driver from parent scenario
    
@@ -22,7 +21,7 @@ Singly Driver architecture
          |_SearchStepDef    |
          
             |_Login.feature     |
-            |_Order.feature     |_here all written all step definition
+            |_Order.feature     |_these are all feature file
             |_Search.feature    |
    
    
