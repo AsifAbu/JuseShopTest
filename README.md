@@ -9,7 +9,7 @@ Framework Layer:
 
 Singly Driver architecture
 
--Parent Driver > where driver is created. if not created any driver then create a new one
+|_Parent Driver > where driver is created. if not created any driver then create a new one
    |_Parent Scenario > inherit the driver from parent scenario
    
       |_BasePage      |- basepage, where all common functionalities are written. So, that can commonly use
