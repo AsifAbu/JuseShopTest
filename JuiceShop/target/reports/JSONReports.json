@@ -1,0 +1,293 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T16:30:23.915Z",
+        "line": 4,
+        "name": "Successful login with valid credential",
+        "description": "",
+        "id": "feature-to-test-login;successful-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3976000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "browser is open",
+            "match": {
+              "location": "test.LoginStepDef.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3991000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "go to the login page",
+            "match": {
+              "location": "test.LoginStepDef.go_to_the_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1551000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "welcome popup came, close the popup",
+            "match": {
+              "location": "test.LoginStepDef.welcome_popup_came_close_the_popup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 433000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \"aa.asifabu@gmail.com\" and \"123456asif\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aa.asifabu@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"123456asif\"",
+                  "offset": 39
+                }
+              ],
+              "location": "test.LoginStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on login button",
+            "match": {
+              "location": "test.LoginStepDef.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 417000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "test.LoginStepDef.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test login",
+    "description": "",
+    "id": "feature-to-test-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/1_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T16:30:34.554Z",
+        "line": 5,
+        "name": "Add Item to the basket",
+        "description": "",
+        "id": "feature-to-order;add-item-to-the-basket",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2528000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "test.OderStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 28173000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add one item to the basket",
+            "match": {
+              "location": "test.OderStepDef.add_one_item_to_the_basket()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-06T16:31:05.270Z",
+        "line": 9,
+        "name": "Do checkout",
+        "description": "",
+        "id": "feature-to-order;do-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 768000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "item is already available in the basket",
+            "match": {
+              "location": "test.OderStepDef.item_is_already_available_in_the_basket()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "go to the checkout page",
+            "match": {
+              "location": "test.OderStepDef.go_to_the_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on the checkout button",
+            "match": {
+              "location": "test.OderStepDef.click_on_the_checkout_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2525000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "set a delivery address",
+            "match": {
+              "location": "test.OderStepDef.set_a_delivery_address()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "select the address and continue",
+            "match": {
+              "location": "test.OderStepDef.select_the_address_and_continue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to Order",
+    "description": "",
+    "id": "feature-to-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/2_Order.feature",
+    "tags": []
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-06T16:31:09.213Z",
+        "line": 5,
+        "name": "Verify Search Feature",
+        "description": "",
+        "id": "search-feature;verify-search-feature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "test.OderStepDef.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify search button",
+            "match": {
+              "location": "test.SearchStepDef.verify_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20581000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "search for apple",
+            "match": {
+              "location": "test.SearchStepDef.search_for_apple()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20019000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the search result contains only apple product",
+            "match": {
+              "location": "test.SearchStepDef.verify_the_search_result_contains_only_apple_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Feature",
+    "description": "",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/features/3_Search.feature",
+    "tags": []
+  }
+]

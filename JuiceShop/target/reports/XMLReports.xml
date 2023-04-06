@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="86.499">
+<testcase classname="Feature to test login" name="Successful login with valid credential" time="10.624">
+<system-out><![CDATA[Given browser is open.......................................................passed
+Then go to the login page...................................................passed
+Then welcome popup came, close the popup....................................passed
+When user enters "aa.asifabu@gmail.com" and "123456asif"....................passed
+And click on login button...................................................passed
+Then user is navigated to the home page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to Order" name="Add Item to the basket" time="30.708">
+<system-out><![CDATA[Given user is on home page..................................................passed
+Then add one item to the basket.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Feature to Order" name="Do checkout" time="3.935">
+<system-out><![CDATA[Given item is already available in the basket...............................passed
+Then go to the checkout page................................................passed
+Then click on the checkout button...........................................passed
+Then set a delivery address.................................................passed
+Then select the address and continue........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Feature" name="Verify Search Feature" time="40.785">
+<system-out><![CDATA[Given user is on home page..................................................passed
+Then verify search button...................................................passed
+Then search for apple.......................................................passed
+Then verify the search result contains only apple product...................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+pages\BasePage.class
+test\InformationStepDef.class
+pages\LoginPage.class
+RunnerObject\Runner.class
+pages\RegulationsPage.class
+test\NewsStepDef.class
+test\LoginStepDef.class
+framework\Constants.class
+framework\ParentScenario.class
+pages\InformationPage.class
+framework\ParentDriver.class
+test\FormsStepDef.class
+test\RegulationsStepDef.class
+pages\NewsPage.class
+pages\FormsPage.class
